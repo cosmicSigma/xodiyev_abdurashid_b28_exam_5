@@ -26,7 +26,7 @@ class _SalesPageState extends State<SalesPage> {
                       TextButton(onPressed: () {
                         Navigator.pop(context);
                       },
-                      child: Image(image: const AssetImage("assets/images/icons/back_arrow.png"), height: size*30, width: size*30, fit: BoxFit.fill)),
+                      child: Image(image: const AssetImage("assets/images/icons/back_arrow.png"), height: size*30, width: size*40, fit: BoxFit.fill)),
                       const Image(image: AssetImage("assets/images/icons/heart.png")),
                     ],
                   ),
@@ -50,7 +50,7 @@ class _SalesPageState extends State<SalesPage> {
                       SizedBox(width: size*5,),
                       DecoratedBox(
                           decoration: BoxDecoration(
-                              color: Color(0xffc4c4c4),
+                              color: const Color(0xffc4c4c4),
                               borderRadius: BorderRadius.circular(size*10)
                           ),
                         child: SizedBox(
@@ -61,7 +61,7 @@ class _SalesPageState extends State<SalesPage> {
                       SizedBox(width: size*5,),
                       DecoratedBox(
                         decoration: BoxDecoration(
-                            color: Color(0xffc4c4c4),
+                            color: const Color(0xffc4c4c4),
                             borderRadius: BorderRadius.circular(size*10)
                         ),
                         child: SizedBox(
@@ -72,7 +72,7 @@ class _SalesPageState extends State<SalesPage> {
                       SizedBox(width: size*5,),
                       DecoratedBox(
                         decoration: BoxDecoration(
-                            color: Color(0xffc4c4c4),
+                            color: const Color(0xffc4c4c4),
                             borderRadius: BorderRadius.circular(size*10)
                         ),
                         child: SizedBox(
@@ -85,7 +85,7 @@ class _SalesPageState extends State<SalesPage> {
                   SizedBox(height: size*40),
                   Text("Series 3", style: TextStyle(fontSize: size*24, color: Colors.black, fontWeight: FontWeight.bold)),
                   SizedBox(height: size*10,),
-                  Text("The Apple watch series 3 is designed for people who want to keep their fitness game on point.", style: TextStyle(fontSize: size*18, color: Color(0xff3A3A3A))),
+                  Text("The Apple watch series 3 is designed for people who want to keep their fitness game on point.", style: TextStyle(fontSize: size*18, color: const Color(0xff3A3A3A))),
                   SizedBox(height: size*10,),
                   Row(
                     children: [

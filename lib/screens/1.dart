@@ -23,7 +23,7 @@ class _MainPageState extends State<MainPage> {
             style: TextStyle(
               fontFamily: "Poppins",
               fontSize: size*15,
-              color: Color(0xff777070)
+              color: const Color(0xff777070)
             ),
             child: Row(
               children: [
