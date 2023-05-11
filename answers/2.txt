@@ -1,0 +1,27 @@
+class bu hayotdagi obyektlarni dasturdagi qolipi,
+obyekt bu real hayotdagi istalgan narsa, dasturlashda obyekt class keywordi orqali
+yaratiladi va haqiqiy hayotdagi obyektlarning shablonini dasturda qurishga yordam beradi
+
+classni fieldlari va metodlari bo'ladi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

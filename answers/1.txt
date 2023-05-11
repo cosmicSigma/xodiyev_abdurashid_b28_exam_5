@@ -1,0 +1,25 @@
+Dart da identifikatorlarni biz nomlashda ishlatamiz ya'ni o'zgaruvchilarni,
+classlarni metodlarni va hokazo
+    Dartda identifikatorlar ma'lum bir qoida asosida yoziladi
+    - katta kichik lotin harflari, raqamlar va _, $ belgilari orqali
+    - identifikator raqam bilan boshlanmasligi va identifiatorda bo'sh joylar bo'lishi
+    kerak emas
+    - tavsiya. identifikatorlarni yozayotganimizda bizning o'zgaruvchimiz yoki metodimizni
+    bajaradigan ishiga qarab ma'noli va nomlayotgan narsamizga mos bo'lishi kerak
+    - Dartda ma'lum bir keywordlarni idetifikator sifatida ishlatish mumin
+    ya'ni ularni ishlatish o'rinlari mavjud DArt tomonidan belgilangan. Ya'ni ularni ishlatish o'rniga
+    aqarab maxsus darajalar berilgan ana o'sha darajalarga qarab ishlatishimiz mumkin.
+    Agar daraja berilmagan bolsa u keyworlarni umuman identifikator sifatida ishlatib bolmaydi. Agar ishlatilsa
+    Dart Compile timeda error beradi
+    - Biz asosan dartda uch xil identifikator turlaridan foydalanamiz:
+    UpperCamelCase: Asosan Classlar va Constructorlarda,
+    lowerCamelCase: asosan metodlar, propertylar, o'zgaruvchilar va hokazo
+    snake_Case: Asosan pakage va fayllarni nomlashda
+
+    Misol:
+
+    Noto'g'ri
+
+    snake case,
+    12apple
+    !dsdsda
